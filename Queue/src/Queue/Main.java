@@ -1,4 +1,4 @@
-package QueueOfStrings;
+package Queue;
 
 public class Main {
 

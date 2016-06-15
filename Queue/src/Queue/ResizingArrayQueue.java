@@ -1,4 +1,4 @@
-package QueueOfStrings;
+package Queue;
 
 import java.util.Iterator;
 

@@ -3,7 +3,7 @@ package QueueOfStrings;
 public class Main {
 
 	public static void main(String[] args) {
-		LinkedListQueueOfStrings q = new LinkedListQueueOfStrings();
+		LinkedListQueue<String> q = new LinkedListQueue<String>();
 		
 		q.enqueue("to");
 		q.enqueue("be");
@@ -18,7 +18,7 @@ public class Main {
 		}
 
 		
-		ResizingArrayQueueOfStrings q2 = new ResizingArrayQueueOfStrings();
+		ResizingArrayQueue<String> q2 = new ResizingArrayQueue<String>();
 		
 		q2.enqueue("shall");
 		q2.enqueue("I");
@@ -30,8 +30,8 @@ public class Main {
 		q2.enqueue("day");
 		
 		limit = q2.size();
-		for(int i = 0; i<limit; i++){
-			System.out.println(q2.dequeue());
+		for(String s : q2){
+			System.out.println(s);
 		}
 
 	}

@@ -1,0 +1,30 @@
+package QueueOfStrings;
+
+public class ResizingArrayQueueOfStrings extends QueueOfStrings {
+	private String[] q = new String[1];
+	private int tail, head, capacity;
+
+	@Override
+	public void enqueue(String item) {
+		
+		if(head == capacity-1){
+			resize();
+		}
+		q[tail] = item;
+
+	}
+
+	@Override
+	public String dequeue() {
+		String item = q[head];
+		q[head] = null;
+		return item;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

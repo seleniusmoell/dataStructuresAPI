@@ -1,0 +1,22 @@
+package QueueOfStrings;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LinkedListQueueOfStrings q = new LinkedListQueueOfStrings();
+		
+		q.enqueue("to");
+		q.enqueue("be");
+		q.enqueue("or");
+		q.enqueue("not");
+		q.enqueue("to");
+		q.enqueue("be");
+		
+		int limit = size();
+		for (int i=0; i<q.size(); i++){
+			System.out.println(q.dequeue());
+		}
+
+	}
+
+}

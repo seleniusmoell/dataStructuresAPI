@@ -1,0 +1,5 @@
+package QueueOfStrings;
+
+public abstract class QueueOfStrings {
+
+}

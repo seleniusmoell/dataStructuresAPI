@@ -1,0 +1,24 @@
+package QueueOfStrings;
+
+public class ResizingArrayQueueOfStrings extends QueueOfStrings {
+	private String[] q = new String[1];
+
+	@Override
+	public void enqueue(String item) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,12 @@
+package QueueOfStrings;
+
+public abstract class QueueOfStrings {
+	
+	public QueueOfStrings(){}
+	
+	public void enqueue(String item){}
+	
+	public abstract String dequeue();
+	
+
+}

@@ -1,0 +1,10 @@
+package QueueOfStrings;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LinkedListQueueOfStrings q = new LinkedListQueueOfStrings();
+
+	}
+
+}

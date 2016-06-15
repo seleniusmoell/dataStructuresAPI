@@ -1,0 +1,31 @@
+package QueueOfStrings;
+
+public class LinkedListQueueOfStrings extends QueueOfStrings {
+	private Node first, last;
+
+	@Override
+	public void enqueue(String item) {
+		Node old = last;
+		last = new Node();
+		last.item = item;
+		last.next = null;
+	}
+
+	@Override
+	public String dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	private class Node {
+		String item;
+		Node next;
+	}
+
+}

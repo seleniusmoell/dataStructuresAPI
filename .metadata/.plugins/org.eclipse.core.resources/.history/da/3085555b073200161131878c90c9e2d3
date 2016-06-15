@@ -1,0 +1,23 @@
+package QueueOfStrings;
+
+public class LinkedListQueueOfStrings extends QueueOfStrings {
+
+	@Override
+	public void enqueue(String item) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
